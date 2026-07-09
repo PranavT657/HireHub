@@ -1,0 +1,17 @@
+# VS Code
+.vscode/
+
+# Java
+*.class
+
+# Build folders
+bin/
+out/
+target/
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
