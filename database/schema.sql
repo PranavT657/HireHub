@@ -1,21 +1,39 @@
+-- ==========================================
 -- HireHub Database Schema
+-- ==========================================
 
--- Users Table
+CREATE DATABASE IF NOT EXISTS hirehub;
 
--- Students Table
+USE hirehub;
 
--- Companies Table
+-- ==========================================
+-- USERS TABLE
+-- ==========================================
 
--- Jobs Table
+CREATE TABLE users (
 
--- Applications Table
+    user_id INT AUTO_INCREMENT PRIMARY KEY,
 
--- Interviews Table
+    full_name VARCHAR(100) NOT NULL,
 
--- Results Table
+    email VARCHAR(100) NOT NULL UNIQUE,
 
--- Notifications Table
+    password VARCHAR(255) NOT NULL,
 
--- Skills Table
+    phone VARCHAR(15),
 
--- Resume Table
+    role ENUM(
+        'STUDENT',
+        'COMPANY',
+        'PLACEMENT_OFFICER',
+        'ADMIN'
+    ) NOT NULL,
+
+    status ENUM(
+        'ACTIVE',
+        'INACTIVE'
+    ) DEFAULT 'ACTIVE',
+
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+
+);
