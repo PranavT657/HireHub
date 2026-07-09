@@ -2,11 +2,9 @@
 
 ## Smart Campus Placement Management System
 
-### Overview
+HireHub is a Java-based placement management system for colleges to manage students, companies, placements, and recruitment.
 
-HireHub is a Java-based placement management system designed to automate campus recruitment activities.
-
-### Technologies
+## Tech Stack
 
 - Java
 - JDBC
@@ -17,21 +15,9 @@ HireHub is a Java-based placement management system designed to automate campus 
 - Git
 - GitHub
 
-### Planned Features
-
-- Student Module
-- Company Module
-- Placement Officer Module
-- Admin Module
-- Resume Upload
-- Job Application
-- Interview Scheduling
-- Reports
-- Notifications
-
-### Future Enhancements
+## Future Enhancements
 
 - Spring Boot
-- REST API
+- REST APIs
 - Python AI Integration
-- Local SLM
+- Local SLM Integration
