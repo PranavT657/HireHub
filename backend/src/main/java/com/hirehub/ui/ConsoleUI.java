@@ -43,8 +43,9 @@ public class ConsoleUI {
                     break;
 
                 case 4:
-                    System.out.println("\nJob Module Coming Soon...");
-                    break;
+    JobUI jobUI = new JobUI();
+    jobUI.start();
+    break;
 
                 case 5:
                     System.out.println("\nApplication Module Coming Soon...");
