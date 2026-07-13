@@ -48,8 +48,9 @@ public class ConsoleUI {
     break;
 
                 case 5:
-                    System.out.println("\nApplication Module Coming Soon...");
-                    break;
+    ApplicationUI applicationUI = new ApplicationUI();
+    applicationUI.start();
+    break;
 
                 case 6:
                     System.out.println("\nThank You For Using HireHub.");

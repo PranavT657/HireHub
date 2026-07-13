@@ -1,13 +1,13 @@
 package com.hirehub;
 
-import com.hirehub.ui.ConsoleUI;
+import com.hirehub.ui.LoginUI;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        ConsoleUI consoleUI = new ConsoleUI();
-        consoleUI.start();
+        LoginUI loginUI = new LoginUI();
+        loginUI.start();
 
     }
 }
